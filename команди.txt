@@ -1,0 +1,16 @@
+git add -A 8:25
+git commit -m"commit1" 8:26
+git push 8:26
+git checkout -b branch1 8:27
+git add -A 8:29
+git commit -m"commit2" 8:30
+git push 8:31
+git push --set-upstream origin branch1 8:31
+git checkout main 8:31
+git checkout -b branch2 8:33
+git add -A 8:35
+git commit -m"commit3" 8:36
+git push --set-upstream origin branch2 8:37
+git branch -d branch1 8:40
+git branch -d branch1 8:43
+
